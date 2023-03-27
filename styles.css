@@ -1,0 +1,13 @@
+/*Para de criar uma variavel, o seletor root é a raiz do html */
+/*Variaveis são declaradas com --, variaveis podem ser cores, tamanhos, fontes etc */
+:root {
+    --cor-de-fundo: #EBECEE;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+}
+
+h1{
+    background-color: white;
+}
