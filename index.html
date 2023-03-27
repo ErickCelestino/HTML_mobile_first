@@ -1,14 +1,31 @@
 <!DOCTYPE html>
 <html lang="pt-Br">
+
 <head>
     <!-- charset é referente a codificação dos caracteres -->
     <meta charset="UTF-8">
     <!-- a meta name é referente ao tamanho da tela que será renderizada -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AluraBooks</title>
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-    <h1>AluraBooks</h1>
+    <header class="cabeçalho">
+        <div class="container">
+            <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+            <img src="./assets/img/Logo.svg" alt="Logo da AluraBooks" class="container__imagem">
+        </div>
+        <div class="container">
+            <!-- É sempre importante lembrar de utilizar a tag alt para que não só pessoas que enxergam possam saber o que tem na foto -->
+            <a href="#"><img src="./assets/img/Favoritos.svg" alt="Meus Favoritos" class="container__imagem"></a>
+            <a href="#"><img src="./assets/img/Compras.svg" alt="Menu de Compras" class="container__imagem"></a>
+            <a href="#"><img src="./assets/img/Usuário.svg" alt="Informações do usuário" class="container__imagem"></a>
+        </div>
+
+    </header>
+
 </body>
+
 </html>

@@ -1,0 +1,27 @@
+/* Estamos criando um tamanho para imagem, assim ela poderá ser modificada futuramente */
+.cabeçalho__menu-hamburguer {
+    width: 24px;
+    height: 24px;
+    background-image: url(../assets/img/Menu.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+
+/* Se você apenas utilizar esses comandos o alinhamentos dos itens não ficão corretamente no centro */
+.cabeçalho {
+    background-color:var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* É necessário utilizar o alinhamento em ambos os containers para que os itens tenham os mesmo espaçamentos */
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container__imagem{
+    padding: 1em;
+}
