@@ -10,7 +10,7 @@
 
 /* Se você apenas utilizar esses comandos o alinhamentos dos itens não ficão corretamente no centro */
 .cabeçalho {
-    background-color:var(--branco);
+    background-color: var(--branco);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,20 +24,39 @@
     align-items: center;
 }
 
-.container__imagem{
+.container__imagem {
     padding: 1em;
 }
 
-.lista-menu{
+.lista-menu {
     display: none;
     /* Colocando o position como absolute aqui e tendo o position como relativo no cabeçalho podemos fazer com 
        o objeto de movimente livremente de acordo com a posição do seu pai */
     position: absolute;
     /* Com o top agora a lista pode se movimentar 100% para baixo */
     top: 100%;
+    width: 60vw;
 }
 
 /* Para fazer com que a lista do menu apareça assim que o botão for clicado ou melhor o check for acionado */
-.container__botao:checked ~ .lista-menu {
+.container__botao:checked~.lista-menu {
     display: block;
+}
+
+.lista-menu__titulo,
+.lista-menu__item {
+    padding: 1em;
+    background-color: var(--branco);
+}
+
+.lista-menu__titulo {
+    color: var(--laranja);
+}
+
+.lista-menu__link {
+    background: var(--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
 }
