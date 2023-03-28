@@ -14,6 +14,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* O position relative faz com que o objeto possa se movimentar para qualquer lado*/
+    position: relative;
 }
 
 /* É necessário utilizar o alinhamento em ambos os containers para que os itens tenham os mesmo espaçamentos */
@@ -24,4 +26,18 @@
 
 .container__imagem{
     padding: 1em;
+}
+
+.lista-menu{
+    display: none;
+    /* Colocando o position como absolute aqui e tendo o position como relativo no cabeçalho podemos fazer com 
+       o objeto de movimente livremente de acordo com a posição do seu pai */
+    position: absolute;
+    /* Com o top agora a lista pode se movimentar 100% para baixo */
+    top: 100%;
+}
+
+/* Para fazer com que a lista do menu apareça assim que o botão for clicado ou melhor o check for acionado */
+.container__botao:checked ~ .lista-menu {
+    display: block;
 }
