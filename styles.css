@@ -1,5 +1,6 @@
 /* Esse importe faz a importação de arquivos css para outros arquivos css e facilita no carregamento da página */
 @import url(./styles/header.css);
+@import url(./styles/banner.css);
 
 /*Para de criar uma variavel, o seletor root é a raiz do html */
 /*Variaveis são declaradas com --, variaveis podem ser cores, tamanhos, fontes etc */
