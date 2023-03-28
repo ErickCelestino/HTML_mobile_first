@@ -5,4 +5,6 @@
 # Links 
 - Link do figma: <a href="https://www.figma.com/file/sSMbIqKaGBd66Y8roxTk2p/AluraBooks?t=Fpg8UAT22Ezp2Akb-0">AluraBooks</a>
 - Caso queira aqui está o link do reset do css: <a href="https://www.alura.com.br/artigos/o-que-e-reset-css">Alura reset.css</a>
-- Caso queria baixar as fontes ou modificá-las: <a href="https://fonts.google.com/specimen/Poppins?query=poppins">Font Poppins</a>
+- Caso queira baixar as fontes ou modificá-las: <a href="https://fonts.google.com/specimen/Poppins?query=poppins">Font Poppins</a>
+- Caso queira saber sobre flexbox: <a href="https://www.alura.com.br/artigos/css-guia-do-flexbox">Flexbox</a>
+- Caso queira saber sobre posições: <a href="https://www.alura.com.br/artigos/entenda-a-propriedade-position-css">Posiotions</a>
