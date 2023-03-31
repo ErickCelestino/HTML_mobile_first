@@ -44,6 +44,12 @@
     padding: 1em;
 }
 
+.descricao__estrelinha{
+    width: 91px;
+    height: 15px;
+    padding-bottom: 0.5em;
+}
+
 .descricao__titulo {
     color: var(--laranja);
     font-weight: 700;
@@ -70,4 +76,5 @@
     color: var(--branco);
     font-weight: 700;
     text-decoration: none;
+    padding-top: 1.2em;
 }

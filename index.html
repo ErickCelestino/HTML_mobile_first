@@ -57,6 +57,7 @@
         <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
         <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
     </section>
+
     <section class="carrossel">
         <h2 class="carrossel__titulo">Novos lançamentos</h2>
         <!-- Slider main container -->
@@ -124,6 +125,55 @@
         </div>
     </section>
 
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Mais vendidos</h2>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <div class="swiper-pagination"></div>
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides de livros mais vendidos -->
+                <div class="swiper-slide"><img src="./assets/livros/Angular/Acessibilidade.svg"
+                        alt="Livro sobre Acessibilidade da alura books"></div>
+                <div class="swiper-slide"><img src="./assets/livros/Angular/Angular.svg"
+                        alt="Livro sobre Angular o framework da alura books"></div>
+                <div class="swiper-slide"><img src="./assets/livros/Angular/Guia Front-end.svg"
+                        alt="Livro sobre o guia do front-end da alura books"></div>
+                <div class="swiper-slide"><img src="./assets/livros/Angular/MEAN.svg"
+                        alt="Livro sobre MEAN da alura books"></div>
+                ...
+            </div>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+
+        <div class="card">
+            <!-- Primeira linha -->
+            <div class="card__descricao">
+                <!--Primeira coluna -->
+                <div class="descricao">
+                    <div class="descricao__estrelinha"><img src="./assets/img/Estrelinhas.svg" alt="Foto de estrelas"></div>
+                    <h3 class="descricao__titulo">Autora do Mês</h3>
+                    <h2 class="descricao__titulo-livro">Julia Agarikov</h2>
+                    <p class="descricao__texto">Analista de sistemas e escritora, Julia é especialista em Front-End.</p>
+                </div>
+                <!-- Segunda coluna -->
+                <img src="./assets/escritores/Julia-Agarikov.svg" alt="Imagem de logo do angular 11" class="descricao_imagem">
+            </div>
+            <!-- Segunda linha -->
+            <div class="card__botoes">
+                <!-- Primeira coluna -->
+                <ul class="botoes">
+                    <li class="botoes__item"><img src="./assets/img/Favoritos.svg" alt="Favoritar livros"></li>
+                    <li class="botoes__item"><img src="./assets/img/Compras.svg" alt="Adicionar no carrinho de compras"></li>
+                </ul>
+                <!-- Segunda coluna -->
+                <!-- Quando utilizamos botões apenas para redirecionar é mais viável utilizar ancora, botôes são mais para mudanças na página -->
+                <a href="#" class="botoes__ancora">Saiba mais</a>
+            </div>
+        </div>
+    </section>
     <section class="topicos">
         <h2 class="topicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
         <ul class="topicos__lista">
