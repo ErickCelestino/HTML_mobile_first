@@ -13,6 +13,7 @@
 ## Imagens do aplicativo
 
 ### Visão do mobile
-
-![Tela Inicial Mobile](./assets/Fotos%20do%20aplicativo/Mobile/1.PNG)
-![Tela Mais vendidos Mobile](./assets/Fotos%20do%20aplicativo/Mobile/2.PNG)
+<div>
+<img width="204" alt="1" src="https://user-images.githubusercontent.com/99321670/229144979-988696b0-76c3-44b4-be32-8c8f1ff7b671.PNG">
+<img width="204" alt="2" src="https://user-images.githubusercontent.com/99321670/229144986-b1f90a88-bf87-43ca-9df5-23cf71f5e6ed.PNG">
+</div>
