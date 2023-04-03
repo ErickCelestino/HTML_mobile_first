@@ -65,5 +65,49 @@
 .container__botao {
     display: none;
 }
+
+/* Para fazer o container desaparecer */
+.container__titulo {
+    display: none;
+}
+
+.opcoes {
+    display: none;
+}
+
 /* Para mudar quando a screen for maior que mobile */
-@media screen and (min-width: 1024px){}
+@media screen and (min-width: 1024px){
+    .container__titulo,
+    .container__titulo--negrito{
+        font-family: var(--fonte-secundaria);
+        font-size: 30px;
+    }
+
+    .container__titulo{
+        font-weight: 400;
+        /* Para fazer o container aparecer */
+        display: block;
+    }
+
+    .container__titulo--negrito{
+        font-weight: 700;
+    }
+    
+    .opcoes {
+        padding: 0 1em;
+        text-transform: uppercase;
+    }
+
+    .opcoes__link {
+        text-decoration: none;
+        color: var(--preto);
+    }
+
+    .container__imagem-transparente {
+        display: none;
+    }
+
+    .cabeçalho__menu-hamburguer {
+        display: none;
+    }
+}
