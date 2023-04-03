@@ -9,6 +9,7 @@
 - Caso queira saber sobre flexbox: <a href="https://www.alura.com.br/artigos/css-guia-do-flexbox">Flexbox</a>
 - Caso queira saber sobre posições: <a href="https://www.alura.com.br/artigos/entenda-a-propriedade-position-css">Positions</a>
 - Caso você queira visitar o site do swiper para ser mais sobre como criar carrosseis: <a href="https://swiperjs.com/swiper-api#initialize-swiper">Swiper</a>
+- Caso queira saber mais sobre a flexibilidade nas páginas: <a href="https://www.alura.com.br/artigos/flexibilidade-em-paginas-para-dispositivos-moveis-com-media-queries">Media Queries</a>
 
 ## Imagens do aplicativo
 

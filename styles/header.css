@@ -65,3 +65,5 @@
 .container__botao {
     display: none;
 }
+/* Para mudar quando a screen for maior que mobile */
+@media screen and (min-width: 1024px){}
