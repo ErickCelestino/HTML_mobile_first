@@ -24,7 +24,7 @@
 .card__descricao {
     display: flex;
     justify-content: space-between;
-    margin-bottom:  0.5em;
+    margin-bottom: 0.5em;
 }
 
 .card__botoes {
@@ -44,7 +44,7 @@
     padding: 1em;
 }
 
-.descricao__estrelinha{
+.descricao__estrelinha {
     width: 91px;
     height: 15px;
     padding-bottom: 0.5em;
@@ -77,4 +77,29 @@
     font-weight: 700;
     text-decoration: none;
     padding-top: 1.2em;
+}
+
+@media screen and (min-width: 1024px) {
+    .carrossel__titulo {
+        font-size: 26px;
+    }
+
+    .swiper-pagination {
+        margin: 2em 0 3em 0;
+    }
+
+    .swiper {
+        width: 60%;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: block;
+        top: 60%;
+    }
+
+    .card {
+        width: 40%;
+        margin: 2em auto;
+    }
 }
